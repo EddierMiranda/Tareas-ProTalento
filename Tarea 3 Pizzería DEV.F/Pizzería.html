@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería DEV.F</title>
+</head>
+<body>
+    <header>
+        <h1> Toma de pedidos Pizzería DEV.F</h1>
+    </header>
+    <main>
+        <h2> Información de pedido:</h2>
+        <p> Estimado cliente, tenga en cuenta que su pedido puede tomar un poco más de tiempo que el estimado.<br>
+            Por favor, sea paciente.</p>
+        <form name="Formulario" method="post"> 
+            <label for="nombre">Nombre completo:</label>
+                <input id="nombre" type="text" name="nombre_cliente" placeholder="Nombre completo" required><br><br>
+            <label for="email"> E-mail:</label>
+                <input id="email" type="email" name="e_mail" placeholder="Ejemplo: pizza@devf.com" required><br><br>
+            <label for="numero"> Número de celular:</label>
+                <input id="numero" type="tel" name="numero_cliente" placeholder="Número de celular" minlength="10" maxlength="10" required><br><br>
+            <label for="direccion">Direeción:</label>
+                <input id="direccion" type="text" name="direccion_cliente" placeholder="Ingresa tu dirección" size="50" required><br><br>
+            <label for="hora"> Hora de entrega:</label>
+                <input id="hora" type="datetime-local" name="hora_entrega" required><br><br>
+            <label for="tipo_pizza">Tipo de pizza:</label>
+                <select name="pizza" id="tipo_pizza">
+                    <option value="pizza_napolitana">Pizza Napolitana</option>
+                    <option value="pizza_peperoni">Pizza de Peperoni</option>
+                    <option value="pizza_vegana">Pizza Vegana</option>
+                    <option value="pizza_4_quesos">Pizza 4 Quesos</option>
+                </select>
+            <label for="canitdad">Cantidad:</label>
+                <input id="cantidad" type="number" min="0" max="8" required><br><br>
+            
+                <button type="submit">
+                    Enviar
+                </button>
+        </form>
+    </main>
+</body>
+</html>
