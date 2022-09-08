@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    padding: 0px;
+}
+
+.containersuperior{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+.section1{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.Explorer{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.section2{
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #cdcdcd;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.searchbar{
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-radius: 24px;
+}
+.section3{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    box-sizing: content-box;
+}
+.logo1{
+    width: 16px;
+    height: 16px;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+}
+.nombreLogo{
+    color: rgb(185, 0, 0);
+    display: flex;
+}
+.containerinferior{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding: 5px; */
+    columns: 2 640px;
+    column-gap: 0.5em;
+    padding: 5px;
+    /* flex: 25%; */
+}
+.images{
+    max-width: 100%;
+    display: flex;
+    padding: 5px;
+    /* max-height: auto;
+    margin-bottom: 0.5em;*/
+}
+.image1{
+    /* height: 50%;
+    width: auto; */
+}
+.signup{
+    background-color: rgb(185, 0, 0);
+    color: white;
+    border-radius: 30%;
+    text-decoration: none;
+    box-sizing: content-box;
+
+}
+.login{
+    background-color: rgba(128, 128, 128, .9);
+    color: black;
+    border-radius: 30%;
+    text-decoration: none;
+    box-sizing: content-box;
+
+
+}
